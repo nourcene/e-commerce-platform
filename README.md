@@ -1,4 +1,4 @@
-# 🛍️ MERN E-Commerce Platform
+# 🛍️ E-Commerce Platform
 
 A full-stack e-commerce platform built with MongoDB, Express, React, and Node.js.
 
@@ -34,7 +34,7 @@ A full-stack e-commerce platform built with MongoDB, Express, React, and Node.js
 ### Prerequisites
 - Node.js (v14 or higher)
 - MongoDB (local or Atlas)
-- npm or yarn
+- npm 
 
 ### Installation
 
