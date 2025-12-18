@@ -1,0 +1,26 @@
+{
+  "name": "ecommerce-mern-platform",
+  "version": "1.0.0",
+  "description": "Full-stack MERN E-Commerce Platform",
+  "main": "index.js",
+  "scripts": {
+    "client": "cd client && npm run dev",
+    "server": "cd server && npm run dev",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "install-all": "npm install && cd client && npm install && cd ../server && npm install",
+    "seed": "cd server && npm run seed"
+  },
+  "keywords": [
+    "ecommerce",
+    "mern",
+    "react",
+    "nodejs",
+    "mongodb",
+    "express"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
